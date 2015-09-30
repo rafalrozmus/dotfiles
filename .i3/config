@@ -180,7 +180,10 @@ bar {
 }
 exec --no-startup-id nm-applet
 exec --no-startup-id unity-settings-daemon
-exec --no-startup-id /home/rafal/Apps/check-gmail.sh
+exec --no-startup-id /home/rafal/bin/welcome-message.sh
+exec --no-startup-id /home/rafal/.dropbox-dist/dropboxd
 
-#colors
-client.focused		#5f819d #5f819d #e5e5e5 #2e9ef4
+
+
+
+
